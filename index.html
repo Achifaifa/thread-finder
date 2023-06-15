@@ -1,0 +1,47 @@
+<title>test</title>
+
+<meta charset="UTF-8">
+
+<script type="text/javascript" src="js/colour.js"></script>
+<script type="text/javascript" src="data/data_dmc.js"></script>
+
+
+<a href="javascript:show('howto')">how to use</a> | <a href="javascript:show('local')">local storage</a> | <a href="">source code</a> | <a href="">donate</a><br/><br/>
+<div id="howto">
+1) Select the type of colour you want to find equivalences to <br/>
+2) Type the value in the box<br/>
+3) Click "Convert"<br/>
+All available conversions will appear below
+<hr></div>
+<div id="local">
+This website does not use cookies. Local storage is used to keep a list of recently converted colours. You can <a href="javascript:clear_results()">delete this information</a> or <a href="javascript:disable_storage()">disable this feature for this session</a>
+<hr></div>
+
+<center><div id="input">
+
+<table>
+  <tr>
+    <th>Colour value/number</th>
+    <th>type</th>
+  </tr>
+  <tr>
+    <td><input type="text" id="colour"></input></td>
+    <td>
+      <select id="ctype">
+        <option value="hex">Hexadecimal</option>
+        <option value="rgb">RGB</option>
+        <option value="gut">Güttermann sewall</option>
+        <option value="dmc">DMC Mouline special</option>
+        <option value="anc">Anchor embroidery</option>
+      </select>
+    </td>
+    <td>
+      <input type="button" value="convert" id="conv"></input>
+    </td>
+  </tr>
+</table>
+</div>
+
+<hr>
+
+<div id="results"></div>
