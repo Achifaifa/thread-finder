@@ -2,6 +2,11 @@
 
 Relates DMC, Anchor and Güttermann thread colour numbers with RGB and hex.
 
+I've been chasing manufacturers for actual colour data for years. The only one who replied was DMC, and they sent me a PDF copy of a 10 year old post in an abandoned third party blog. I've completely given up on this.  
+  
+The code is functional, but there is no data to make it useful, unless you want to relate RGB/HEX to DMC. Take the results with a grain of salt, some of the colours in the data I was sent are just wrong. Good luck.  
+
+
 ## How to use 
 
 type the thread colour number or the colour value and click the button. Conversions will show below.
